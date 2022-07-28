@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'currencyPipe';
+  title: string = 'currencyPipe';
+  currency: string = 'EUR';
+  sum: number = 20052510.665;
 }
